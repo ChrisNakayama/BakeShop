@@ -11,7 +11,9 @@ namespace Bakery.Models
 
     public int CalculateSubTotal()
     {
-      return 5;
+      int dollarPastries = (NumPastries - (NumPastries % 3)) / 3;
+      int subTotal = ((NumPastries - dollarPastries) * 2) + (dollarPastries);
+      return subTotal;
     }
   }
 }
