@@ -18,4 +18,13 @@ public class PastryTests
       Pastry newPastry = new Pastry();
       Assert.AreEqual(typeof(Pastry), newPastry.GetType());
     }
+  
+    [TestMethod]
+    public void GetNumPastries_ReturnsNumPastries_Int()
+    {
+    int numPastries = 5;
+    Pastry newPastry = new Pastry(numPastries);
+    int result = newPastry.numPastries;
+    Assert.AreEqual(numPastries, result);
+    }
   }
