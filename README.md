@@ -1,6 +1,6 @@
 # C# BakeShop
 
-#### _A console application 
+#### _A console application_ 
 It will take a customer's order. 
 It will calculate subtotals and totals. 
 It will account for different discounts.
@@ -51,4 +51,4 @@ A user orders bread and pastries in the terminal and receives a subtotal and tot
 Copyright (c) **2022 Chris Nakayama**
 
 ## Contact Information <a id="contact"></a>
-Chris Nakayama: cnakayam@gmail.com 
+Chris Nakayama:cnakayam@gmail.com 

@@ -7,7 +7,7 @@ namespace Bakery
   {
     public static void Main()
     {
-      Console.WriteLine("\r\nWelcome to Pierre's \r\nWe sell bread and pastries.\r\nSee our IG for today's seasonal varieties. \r\n \r\nRegardless of flavors prices are: \r\nBread: Buy 2 loaves, Get 1 Free \r\nPastry: Buy 1 for $2 or 3 for $5 \r\n \r\nHow many loaves of bread to order? [Simply hit enter without typing a number if you don't wish to order bread]");
+      Console.WriteLine("\r\nWelcome to Pierre's \r\nWe sell bread and pastries.\r\nSee our IG for Menu \r\n \r\nPrices are: \r\nBread: Buy 2 loaves, Get 1 Free \r\nPastry: Buy 1 for $2 or 3 for $5 \r\n \r\nHow many loaves of bread to order? [Simply hit enter without typing a number if you don't wish to order bread]");
       string stringNumLoaves = Console.ReadLine();
       int numLoaves = int.Parse(stringNumLoaves);
       Bread customerBread = new Bread(numLoaves);
