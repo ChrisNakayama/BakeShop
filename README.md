@@ -51,4 +51,4 @@ A user orders bread and pastries in the terminal and receives a subtotal and tot
 Copyright (c) **2022 Chris Nakayama**
 
 ## Contact Information <a id="contact"></a>
-**[Chris Nakayama](mailto:cnakayam@gmail.com)**
+Chris Nakayama: cnakayam@gmail.com 
