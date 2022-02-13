@@ -27,4 +27,14 @@ public class PastryTests
     int result = newPastry.numPastries;
     Assert.AreEqual(numPastries, result);
     }
+    [TestMethod]
+    public void CalculateSubTotal_ReturnsSubTotal_Int()
+    {
+      int numPastries = 5;
+      Pastry newPastry = new Pastry(numPastries);
+      int result = newPastry.CalculateSubTotal();
+      Assert.AreEqual(7, result);
+    }
   }
+
+  
